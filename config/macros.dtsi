@@ -1,3 +1,9 @@
+macro_goerr: macro_goerr{
+compatible = "zmk,behavior-macro";
+label = "macro_goerr";
+#binding-cells = <0>;
+bindings = <&kp I>, <&kp F>, <&kp SPACE>, <&kp E>, <&kp R>, <&kp R>, <&kp SPACE>, <&kp EXCLAMATION>, <&kp EQUAL>, <&kp SPACE>, <&kp N>, <&kp I>, <&kp L>, <&kp LEFT_BRACE>, <&kp ENTER>, <&kp TAB>, <&kp R>, <&kp E>, <&kp T>, <&kp U>, <&kp R>, <&kp N>, <&kp SPACE>, <&kp E>, <&kp R>, <&kp R>, <&kp ENTER>, <&kp RIGHT_BRACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
